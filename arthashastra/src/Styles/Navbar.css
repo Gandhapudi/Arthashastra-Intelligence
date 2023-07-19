@@ -1,0 +1,43 @@
+.navbar{
+    height:70px;
+    background-color:rgba(255,255,255,0.25) ;
+    padding: 16px 12px 12px 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.button{
+background-color:rgb(251 146 60) ;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 20px;
+height: 40px;
+border-radius: 6px;
+}
+.details{
+    display: flex;
+
+    gap:6px;
+    color:orange;
+    font-size:10.8px;
+}
+.details-item{
+    border-style: solid;
+    padding: 4px;
+  border-width: 0px 2px 0px 0px;
+     
+}
+
+@media screen and (min-width:200px) and (max-width:700px)  {
+    
+    .button{
+        width:auto;
+        font-size:xx-small;
+    }
+    .details{
+        display: none;
+    }
+  }
